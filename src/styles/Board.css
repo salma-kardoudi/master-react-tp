@@ -1,0 +1,19 @@
+.board {
+  display: grid;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.board--4 {
+  grid-template-columns: repeat(2, 120px);
+}
+
+.board--16 {
+  grid-template-columns: repeat(4, 120px);
+}
+
+.board--32 {
+  grid-template-columns: repeat(8, 120px);
+}
